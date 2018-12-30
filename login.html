@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+
+ body{
+ font-family: 'Open sans', sans-serif;
+ background: #6a3093;  /* fallback for old browsers */
+ background: -webkit-linear-gradient(to right, #a044ff, #6a3093);  /* Chrome 10-25, Safari 5.1-6 */
+ background: linear-gradient(to right, #a044ff, #6a3093); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ }
+ 
+ .form-div{
+ position: absolute;
+ padding: 40px 0 10px 0;
+ display: block;
+ color: #fff;
+ text-align: center;
+ background-color: rgba(0, 0, 0, 0.4);
+ margin:auto;
+
+ top: 0;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ width: 50%;
+ height: 30%;
+  /*width: calc(100vw - 200px); */
+ }
+
+ .form-div span{
+
+   font-size: 18px;
+ }
+ 
+ .form-div input[type="text"]{
+   color: rgb(248, 245, 245);
+   background-color: transparent;
+   border-style: none;
+   font-size: 20px;
+   text-align: center;
+   margin: 0 0 0 30px;
+   border-bottom: 2px #fff solid ;
+ }
+
+ .form-div input[type="text"]:focus{
+   color: rgb(248, 245, 245);
+   background-color: transparent;
+   border-style: none;
+   font-size: 20px;
+   text-align: center;
+   margin: 0 0 0 30px;
+   border-bottom: 2px #fff solid ;
+ }
+
+ .form-div input[type="password"]{
+   color: rgb(248, 245, 245);
+   background-color: transparent;
+   border-style: none;
+   font-size: 20px;
+   text-align: center;
+   margin: 12px 0 0 30px;
+   border-bottom: 2px #fff solid ;
+ }
+
+ .form-div input[type="submit"]{
+
+   border-style: none;
+   border-radius: 5px;
+   
+   font-size: 22px;
+   text-align: center;
+   border-bottom: 2px #fff solid ;
+   padding: 5px 10px 5px 10px;
+ }
+
+ #title{
+ color: #fff;
+ font-size: 43px;
+ font-weight: light;
+ text-align: center;
+}
+
+</style>
+
+</head>
+<body>
+
+  <p id="title"> Login here to continue ... &gtcc;</p>
+
+<div class="form-div">
+<form>
+<span>Username</span> 
+<input type="text" value="">
+<br>
+<span>Password</span> 
+<input type="password" value="">
+
+<br>
+<br>
+<br>
+<br>
+
+<input type='submit' value='Login'>
+<form>
+
+</div>
+
+
+</body>
+</html>
